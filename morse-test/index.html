@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <title>Morse Code Translator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+	<body>
+        <h1 class="heading col-12 d-flex justify-content-center align-items-center">Use the Morse, Luke...</h1>
+			<div class="container d-flex justify-content-around align-items-center">
+        <div id="container_text">
+            <b>Input</b>
+            <br>
+				<textarea type="text" placeholder="Type your message here..." id="input" class="blank" cols="30" rows="5"></textarea>
+            <br>
+            <b>Output</b>
+            <br>
+				<textarea type="text" placeholder="Translation appears here..." id="output" class="blank" cols="30" rows="5"></textarea>
+        <div class="buttons">
+					<button class="btn btn-md px-3 btn-outline-dark buttons" id="text2Morse">Translate to Morse</button>
+					<button class="btn btn-md px-3 btn-outline-dark buttons" id="morse2Text">Translate to English</button>
+				</div>
+			</div>
+		</div>
+		<script src="./assets/scripts/app.js" type="module"></script>
+	</body>
+</html>
